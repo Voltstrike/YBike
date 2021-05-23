@@ -231,6 +231,8 @@ footer{
 .container-carosel{
     position: relative;
     display: none;
+    padding-left: 30vw;
+    padding-top: 0;
 }
 #imgtext{
     position: absolute;
