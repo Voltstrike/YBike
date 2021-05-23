@@ -82,7 +82,7 @@ nav{
 .container h2{
     text-align: center;
 }
-.Product-Header{
+.Product-Header, .Gallery-header{
     text-align: center;
 }
 .Bikes{
