@@ -24,8 +24,32 @@
         </div>
         <a href="Homepage.html">Logo</a>
     </nav>
-    Gallery
+    <div class="header">
+        <div class="container">
+            <div class="header-list">
+                <h1>Gallery</h1>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="row">
+            <div class="column">
+                <img src="./Kawasaki-1.png" alt="Kawasaki-1" onclick="myFunction(this)">
+            </div>
+            <div class="column">
+                <img src="./Kawasaki-2.png" alt="Kawasaki-2" onclick="myFunction(this)">
+            </div>
+            <div class="column">
+                <img src="./Kawasaki-3.png" alt="Kawasaki-3" onclick="myFunction(this)">
+            </div>
+        </div>
+        <div class="container-carosel">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:90%">
 
+            <div id="imgtext"></div>
+        </div>
+    </div>
     <footer>
         <div class="container">
             <div class="message">
