@@ -1,0 +1,39 @@
+body{
+   background-color: #BBA14F; 
+}
+.title{
+    text-align: center;
+    font-family: sans-serif;
+}
+.bgimg{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.IMGText{
+    position: absolute;
+    left: 226px;
+    top: 149px;
+    font-family: sans-serif;
+}
+.container img{
+    width: 500px;
+    height: 300px;
+}
+.text{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+.text a{
+    text-decoration: none;
+    color: black;
+}
+.bgimg img{
+    width: 1920px;
+    height: 450px;
+}
+.Bikes{
+    display: flex;
+    justify-content: space-evenly;
+}
