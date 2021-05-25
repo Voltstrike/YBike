@@ -1,7 +1,6 @@
 .container{
     display: flex;
     justify-content: center;
-    flex-direction: row;
 }
 .image{
     display: flex;
@@ -11,4 +10,8 @@
 .image img{
     height: 200px;
     width: 360px;
+}
+.back-image img{
+    width: 1920px;
+    height: 360px;
 }
