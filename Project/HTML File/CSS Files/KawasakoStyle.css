@@ -1,3 +1,6 @@
+body{
+    background-color: #BBA14F; 
+}
 .container{
     display: flex;
     justify-content: center;
