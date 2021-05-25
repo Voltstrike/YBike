@@ -15,3 +15,9 @@
     width: 1920px;
     height: 360px;
 }
+.Heading{
+    text-align: center;
+}
+.Heading h1{
+    font-family: sans-serif;
+}
