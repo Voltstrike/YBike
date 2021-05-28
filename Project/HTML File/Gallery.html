@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS Files/Style.css">
+    <link rel="stylesheet" href="./CSS Files/GalleryStyle.css">
     <link rel="stylesheet" href="./CSS Files/responsive.css">
+    <script src="./JS Files/GalleryJS.js"></script>
     
     <title>Gallery | YBike</title>
 </head>
@@ -25,6 +27,25 @@
         </div>
         <a href="Homepage.html">Logo</a>
     </nav>
+    <div class="row">
+        <div class="column">
+            <img src="./Product images/Kawasaki-1.png" alt="Gallery1" onclick="showImage(this)">
+        </div>
+        <div class="column">
+            <img src="./Product images/Kawasaki-2.png" alt="Gallery1" onclick="showImage(this)">
+        </div>
+        <div class="column">
+            <img src="./Product images/Kawasaki-3.png" alt="Gallery1" onclick="showImage(this)">
+        </div>
+        <div class="column">
+            <img src="./Product images/Kawasaki-3.png" alt="Gallery1" onclick="showImage(this)">
+        </div>
+    </div>
+    <div class="container">
+        <span onclick="this.parentElemenrt.style.display = 'none'" class="closeBtn">&times;</span>
+        <img id="expandedImg" style="width: 50%;">
+        <div id="imgtext"></div>
+    </div>
     
     <footer>
         <div class="container">
