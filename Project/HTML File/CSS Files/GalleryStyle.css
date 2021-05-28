@@ -8,11 +8,12 @@
 .column img{
     opacity: 0.8;
     cursor: pointer;
+    width: 450px;
+    height: 200px;
 }
 
 .column img:hover{
     opacity: 1;
-    background-color: burlywood;
 }
 
 .row:after{
@@ -28,7 +29,7 @@
 }
 
 .container img{
-    padding-left: 530px;
+    padding-left: 500px;
 }
 
 #imgText{
@@ -51,4 +52,10 @@
 #imgtext{
     font-size: 40px;
     text-align: center;
+}
+
+#expandedImg{
+    padding-top: 50px;
+    width: 1000px;
+    height: 526px;
 }
