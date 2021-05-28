@@ -4,9 +4,13 @@
     padding: 18px;
 }
 
-.row{
+body{
     background-color: #BBA14F;
 }
+
+/* .row{
+    background-color: #BBA14F;
+} */
 
 .column img{
     opacity: 0.8;
@@ -26,7 +30,7 @@
 }
 
 .gallery-container{
-    background-color: #BBA14F;
+    /* background-color: #BBA14F; */
     position: relative;
     display: none;
 }
