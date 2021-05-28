@@ -1,9 +1,12 @@
 .column{
     float: left;
     width: 23%;
-    padding: 10px;
+    padding: 18px;
 }
 
+.row{
+    background-color: #BBA14F;
+}
 
 .column img{
     opacity: 0.8;
@@ -22,13 +25,13 @@
     clear: both;
 }
 
-.container{
+.gallery-container{
     background-color: #BBA14F;
     position: relative;
     display: none;
 }
 
-.container img{
+.gallery-container img{
     padding-left: 500px;
 }
 
@@ -59,5 +62,5 @@
 #expandedImg{
     padding-top: 30px;
     width: 1000px;
-    height: 530px;
+    height: 513px;
 }
