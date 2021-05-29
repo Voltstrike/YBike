@@ -27,13 +27,13 @@
         </div>
         <div class="logo">
             <a href="Homepage.html">
-                <img src="./Project_logo.png" alt="YBike Logo">
+                <img src="./Project_logo_nobg.png" alt="YBike Logo">
             </a>
         </div>
     </nav>
     <div class="row">
         <div class="column">
-            <img src="./Showroom Images/showroom4.jfif" alt="Gallery1" onclick="showImage(this)">
+            <img src="./Showroom Images/showroom4.jfif" alt="Gallery1" onclick="showImage(this)" >
         </div>
         <div class="column">
             <img src="./Showroom Images/showroom2.jpg" alt="Gallery1" onclick="showImage(this)">
@@ -45,6 +45,8 @@
             <img src="./Showroom Images/showroom5.jpg" alt="Gallery1" onclick="showImage(this)">
         </div>
     </div>
+    <a class="next" onclick="plusPic(1)">&#10095;</a>
+    <a class="prev" onclick="plusPic(-1)">&#10094;</a>
     <div class="gallery-container">
         <span onclick="this.parentElement.style.display = 'none'" class="closeBtn">&times;</span>
         <img id="expandedImg">

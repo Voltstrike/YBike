@@ -8,10 +8,6 @@ body{
     background-color: #BBA14F;
 }
 
-/* .row{
-    background-color: #BBA14F;
-} */
-
 .column img{
     opacity: 0.8;
     cursor: pointer;
@@ -30,7 +26,6 @@ body{
 }
 
 .gallery-container{
-    /* background-color: #BBA14F; */
     position: relative;
     display: none;
 }
@@ -67,4 +62,30 @@ body{
     padding-top: 30px;
     width: 1000px;
     height: 513px;
+}
+
+.prev,
+.next{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next{
+    right: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev:hover,
+.next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
 }
