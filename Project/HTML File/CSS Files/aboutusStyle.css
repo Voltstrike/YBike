@@ -24,8 +24,6 @@ body{
     text-align: center;
 }
 .Logo img{
-    align-items: center;
-    justify-content: space-evenly;
     width: 360px;
     height: 240px;
 }
