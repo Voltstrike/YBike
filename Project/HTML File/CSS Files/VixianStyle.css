@@ -1,0 +1,29 @@
+body{
+    background-color: #BBA14F; 
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 360px;
+    width: 1920px;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image img{
+    height: 200px;
+    width: 360px;
+}
+.back-image img{
+    width: 1920px;
+    height: 360px;
+}
+.Heading{
+    text-align: center;
+}
+.Heading h1{
+    font-family: sans-serif;
+}
+
