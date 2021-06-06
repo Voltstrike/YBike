@@ -4,10 +4,12 @@ body{
 .container{
     display: flex;
     justify-content: center;
+    height: 360px;
+    width: 1920px;
 }
 .image{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 .image img{
@@ -24,3 +26,4 @@ body{
 .Heading h1{
     font-family: sans-serif;
 }
+
