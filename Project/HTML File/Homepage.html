@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS Files/Style.css">
     <link rel="stylesheet" href="./CSS Files/responsive.css">
+    <link rel="stylesheet" href="./CSS Files/homepageStyle.css">
     <title>YBike</title>
 </head>
 <body>
@@ -24,7 +25,67 @@
         </div>
         <a href="Homepage.html">Logo</a>
     </nav>
-    
+
+    <div class='home-wrapper'>
+        <div class="top-home">
+            <div class="home-container">
+                <h1>Welcome To YBike</h1>
+                <p>A one stop website for people who loves bikes!</p>
+                <div class="top-info">
+                    <p>We offer perfect bikes to satisfy your bike craving.</p>
+                    <p>From Vixian to Kawasako, one website for all solution</p>
+                    <p>for you who wants to ride a shotgun!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mid-home">
+            <div class="home-container">
+                <div class="top-aboutus">
+                    <h2> About Us</h2>
+                    <p>YBIKE is a motorcycle dealer formed on December 30, 2016 and based in Jakarta, Indonesia.</p> 
+                    <p>YBIKE sells motorcycles from 2 famous brands of motorcycle: Vixian and Kawasako.</p>
+                </div>            
+                <div class="slider">
+                    <div class="slidercontainer">  
+                        <div class="showSlide fade">  
+                            <img src="./Product images/slider images/img1.jpg" />
+                        </div>  
+                        <div class="showSlide fade">  
+                            <img src="./Product images/slider images/img2.jpg"/>
+                        </div>
+                        <div class="showSlide fade">  
+                            <img src="./Product images/slider images/img3.png"/>  
+                        </div>  
+                        <div class="showSlide fade">  
+                            <img src="./Product images/slider images/img4.png"/>  
+                        </div>  
+                        <!-- Navigation arrows -->  
+                        <a class="left" onclick="nextSlide(-1)">❮</a>  
+                        <a class="right" onclick="nextSlide(1)">❯</a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="bottom-home">
+            <div class="home-container">
+                <div class="bottom-products">
+                    <h3>Products</h3>
+                    <a href="Products.html">Products</a>
+                </div>
+                <div class="bottom-gallery">
+                    <h3>Gallery</h3>
+                    <a href="Gallery.html">Gallery</a>
+                </div>
+                <div class="bottom-reserve">
+                    <h3>Reserve</h3>
+                    <a href="Reserve.html">Reserve</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
     <footer>
         <div class="container">
@@ -40,5 +101,6 @@
             </div>
         </div>
     </footer>
+    <script src="./JS Files/HomeStyle.js"></script>
 </body>
 </html>
