@@ -21,4 +21,9 @@ body{
 }
 .desc{
     font-family: sans-serif;
+    text-align: center;
+}
+.Logo img{
+    width: 360px;
+    height: 240px;
 }
