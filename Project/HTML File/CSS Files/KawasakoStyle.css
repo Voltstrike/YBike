@@ -4,7 +4,7 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    height: 360px;
+    height: auto;
     width: 1920px;
 }
 .image{
