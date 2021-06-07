@@ -1,11 +1,11 @@
 body{
-    background-color: #BBA14F; 
+    background-color: #F3F4ED; 
 }
 .container{
     display: flex;
     justify-content: center;
     height: auto;
-    width: 1920px;
+    width: 100%;
 }
 .image{
     display: flex;
@@ -13,12 +13,11 @@ body{
     justify-content: center;
 }
 .image img{
-    height: 200px;
-    width: 360px;
+    width: 100%;
 }
 .back-image img{
-    width: 1920px;
-    height: 360px;
+    width: 100%;
+    height: max-content;
 }
 .Heading{
     text-align: center;
@@ -26,4 +25,6 @@ body{
 .Heading h1{
     font-family: sans-serif;
 }
+
+
 

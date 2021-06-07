@@ -17,8 +17,7 @@ body{
     font-family: sans-serif;
 }
 .container img{
-    width: 500px;
-    height: 300px;
+    width: 60%;
 }
 .text{
     text-align: center;
@@ -30,8 +29,8 @@ body{
     color: black;
 }
 .bgimg img{
-    width: 1920px;
-    height: 450px;
+    width: 100%;
+    
 }
 .Bikes{
     display: flex;

@@ -5,7 +5,7 @@ body{
     display: flex;
     justify-content: center;
     height: auto;
-    width: 1920px;
+    width: 100%;
 }
 .image{
     display: flex;
@@ -13,12 +13,10 @@ body{
     justify-content: center;
 }
 .image img{
-    height: 200px;
-    width: 360px;
+    width: 100%;
 }
 .back-image img{
-    width: 1920px;
-    height: 360px;
+    width: 100%;
 }
 .Heading{
     text-align: center;
