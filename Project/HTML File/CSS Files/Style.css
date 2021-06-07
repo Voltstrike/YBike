@@ -173,7 +173,7 @@ nav{
 footer{
     background-color: black;
     color: white;
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 1920px;
     height: 48px;
