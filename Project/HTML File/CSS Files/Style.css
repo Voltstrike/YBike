@@ -15,18 +15,10 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 100%;
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
-    height: 48px;
->>>>>>> db99666d29601c974600662f6415361c1330b03c
 }
 
 .navbar img{
-    width: 50px;
-    height: 50px;
+    width: 4vw;
 }
 
 .navbar{
@@ -100,14 +92,6 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
-    height: 48px;
->>>>>>> db99666d29601c974600662f6415361c1330b03c
-    float: left;
 }
 
 .message{
