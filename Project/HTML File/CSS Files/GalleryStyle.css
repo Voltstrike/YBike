@@ -47,21 +47,6 @@ body{
     margin-right: auto;
 }
 
-#imgText{
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: white;
-    font-size: 20px;
-}
-
-#imgtext{
-    text-align: center;
-    font-size: 35px;
-    color: black;
-    padding: 12px;
-}
-
 #expandedImg{
     padding-top: 10px;
     width: 1000px;
