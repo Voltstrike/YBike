@@ -16,12 +16,25 @@ body{
     top: 149px;
     font-family: sans-serif;
 }
+
+.container{
+    align-items: center;
+    justify-content: center;
+}
+
 .container img{
-    width: 60%;
+    padding-top: 40px;
+    width: 70%;
+    height: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+.container:hover{
+    transform: scale(1.2);
+}
+
 .text{
     text-align: center;
     color: black;
@@ -32,7 +45,8 @@ body{
     color: black;
 }
 .bgimg img{
-    width: 100%;
+    width: fit-content;
+    height: 350px;
     
 }
 .Bikes{
