@@ -18,7 +18,7 @@ nav{
 }
 
 .navbar img{
-    width: 4vw;
+    width: 6vw;
 }
 
 .navbar{
@@ -32,7 +32,7 @@ nav{
 
 .navbar a{
     float: left;
-    font-size: 16px;
+    font-size: 25px;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -45,7 +45,7 @@ nav{
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 30px;
     border: none;
     outline: none;
     color: white;
@@ -53,6 +53,7 @@ nav{
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
+    height: 6vh;
 }
 
 .navbar .dropdown a:hover, .dropdown:hover .dropbtn {
