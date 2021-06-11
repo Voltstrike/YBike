@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./JS Files/jquery-3.6.0.min.js"></script>
+    <script src="./JS Files/GalleryJS.js"></script>
     <link rel="stylesheet" href="./CSS Files/Style.css">
     <link rel="stylesheet" href="./CSS Files/GalleryStyle.css">
     <link rel="stylesheet" href="./CSS Files/responsive.css">
-    <script src="./JS Files/GalleryJS.js"></script>
     
     <title>Gallery | YBike</title>
 </head>
@@ -33,26 +34,27 @@
             </a>
         </div>
     </nav>
-    <div class="row">
-        <div class="column">
-            <img src="./Showroom Images/showroom4.jfif" alt="Gallery1" onclick="showImage(this)" >
+    <main>
+        <div class="row">
+            <div class="column">
+                <img src="./Showroom Images/showroom4.jfif" alt="Gallery1" onclick="showImage(this)" >
+            </div>
+            <div class="column">
+                <img src="./Showroom Images/showroom2.jpg" alt="Gallery1" onclick="showImage(this)">
+            </div>
+            <div class="column">
+                <img src="./Showroom Images/showroom3.jfif" alt="Gallery1" onclick="showImage(this)">
+            </div>
+            <div class="column">
+                <img src="./Showroom Images/showroom5.jpg" alt="Gallery1" onclick="showImage(this)">
+            </div>
+            <div class="column">
+                <img src="./Showroom Images/showroom6.jpg" alt="Gallery1" onclick="showImage(this)">
+            </div>
         </div>
-        <div class="column">
-            <img src="./Showroom Images/showroom2.jpg" alt="Gallery1" onclick="showImage(this)">
-        </div>
-        <div class="column">
-            <img src="./Showroom Images/showroom3.jfif" alt="Gallery1" onclick="showImage(this)">
-        </div>
-        <div class="column">
-            <img src="./Showroom Images/showroom5.jpg" alt="Gallery1" onclick="showImage(this)">
-        </div>
-    </div>
-    <a class="next" onclick="plusPic(1)">&#10095;</a>
-    <a class="prev" onclick="plusPic(-1)">&#10094;</a>
+    </main>
     <div class="gallery-container">
-        <span onclick="this.parentElement.style.display = 'none'" class="closeBtn">&times;</span>
         <img id="expandedImg">
-        <div id="imgtext"></div>
     </div>
     
     <footer>
@@ -69,5 +71,6 @@
             </div>
         </div>
     </footer>
+    
 </body>
 </html>

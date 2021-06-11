@@ -13,11 +13,12 @@ body{
     justify-content: center;
 }
 .image img{
-    width: 100%;
+    width: 70%;
+    height: 200px;
 }
 .back-image img{
     width: 100%;
-    height: max-content;
+    height: 350px;
 }
 .Heading{
     text-align: center;
@@ -25,6 +26,4 @@ body{
 .Heading h1{
     font-family: sans-serif;
 }
-
-
 
