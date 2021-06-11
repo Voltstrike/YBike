@@ -1,82 +1,181 @@
-.home-container{
-    width: 1920px;
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://cdn.suwalls.com/wallpapers/photography/motorcycle-silhouette-at-sunset-47922-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mid-home .home-container{
+    display: flex;
+    flex-direction: row;
     padding-left: 15px;
     padding-right: 15px;
     margin-left:auto;
     margin-right:auto;
+    
 }
 
 .home-container a{
     text-decoration: none;
-
 }
 
 .top-home{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     padding-top: 180px;
     padding-bottom: 100px;
     color:white;
-    background-image: url(https://cdn.suwalls.com/wallpapers/photography/motorcycle-silhouette-at-sunset-47922-1920x1080.jpg);
-    background-size: cover;
+}
+
+.top-home h1 {
+    font-size: 10vw;
+}
+.top-home p{
+    font-size: 3vw;
+}
+
+.top-home .top-info p{
+    font-size: 20px;
 }
 
 .top-aboutus{
-    float:left;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-.slider{
-    float: right;
+.top-aboutus h3{
+    font-weight: bold;
 }
+
+.mid-home{
+    background-color: rgba(0,0,0,0.8);
+    color: blanchedalmond;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+/* Slider container */
 .slidercontainer{
-    max-width: max-content;
-    position: fixed;
-    margin: auto;
+    max-width: 250px;
+    position: relative;
+    margin: auto auto auto 5vw;
 }
 
-.left, .right {
-    top: 50%;
-    width:auto;
-    padding: 16px;
+/* hide images default */
+.showslide{
+    display: none;
+}
+
+/* left right button */
+.left, .right{
     cursor: pointer;
     position: absolute;
-    font-size: 18px;
+    top: 50%;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
     font-weight: bold;
-    transition: 0.5s ease;
-    border-radius: 0, 3px, 3px, 0;
+    font-size: 18px;
+    transition: 0.7s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
-.right {
-    right: 0;
-    border-radius: 3px, 0, 0, 3px;
+/* positioning right button */
+.right{
+    right:0;
+    border-radius: 3px 0 0 3px;
 }
 
+.left{
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Background color on hover */
 .left:hover, .right:hover{
-    background-color: sienna;
+    background-color: rgba(0,0,0,0.8);
 }
 
-.active {  
-    background-color: #717171;  
-}  
-/* Fading animation */  
-.fade {  
-    -webkit-animation-name: fade;  
-    -webkit-animation-duration: 1.5s;  
-    animation-name: fade;  
-    animation-duration: 1.5s;  
-}  
-@-webkit-keyframes fade {  
-    from {  
-        opacity: .4  
-    }  
-    to {  
-        opacity: 1  
-    }  
-}  
-
-@keyframes fade {  
-    from {  
-        opacity: .4  
-    }  
-    to {  
-        opacity: 1  
-    }  
+/* Caption */
+.caption{
+    color: aliceblue;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
+
+/* slidernum */
+.slidernum{
+    color: aliceblue;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* page dots */
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover{
+    background-color: #717171;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5 s;
+}
+
+@-webkit-keyframes fade{
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+@keyframes fade{
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+.bottom-home{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column{
+    padding: 10vw;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }

@@ -90,6 +90,7 @@ footer{
     background-color: #536162;
     color: white;
     position: absolute;
+    overflow: hidden;
     bottom: 0;
     width: 100%;
 }

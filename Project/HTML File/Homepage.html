@@ -47,26 +47,41 @@
             <div class="home-container">
                 <div class="top-aboutus">
                     <h2> About Us</h2>
-                    <p>YBIKE is a motorcycle dealer formed on December 30, 2016 and based in Jakarta, Indonesia.</p> 
-                    <p>YBIKE sells motorcycles from 2 famous brands of motorcycle: Vixian and Kawasako.</p>
+                    <p>YBIKE is a motorcycle dealer formed on December 30,</p>
+                    <p>2016 and based in Jakarta, Indonesia.</p> 
+                    <p>YBIKE sells motorcycles from 2 famous brands of</p>
+                    <p>motorcycle: Vixian and Kawasako.</p>
                 </div>            
                 <div class="slider">
                     <div class="slidercontainer">  
-                        <div class="showSlide fade">  
+                        <div class="showslide fade">
+                            <div class="slidernum">1 / 4</div>  
                             <img src="./Product images/slider images/img1.jpg" />
+                            <div class="caption">Caption One</div>
                         </div>  
-                        <div class="showSlide fade">  
+                        <div class="showslide fade">
+                            <div class="slidernum">2 / 4</div> 
                             <img src="./Product images/slider images/img2.jpg"/>
+                            <div class="caption">Caption Two</div>
                         </div>
-                        <div class="showSlide fade">  
+                        <div class="showslide fade">
+                            <div class="slidernum">3 / 4</div>   
                             <img src="./Product images/slider images/img3.png"/>  
+                            <div class="caption">Caption Three</div>
                         </div>  
-                        <div class="showSlide fade">  
-                            <img src="./Product images/slider images/img4.png"/>  
+                        <div class="showslide fade">
+                            <div class="slidernum">4 / 4</div>   
+                            <img src="./Product images/slider images/img4.png"/>
+                            <div class="caption">Caption Four</div>  
                         </div>  
-                        <!-- Navigation arrows -->  
+                        <!-- Right/left arrows -->  
                         <a class="left" onclick="nextSlide(-1)">❮</a>  
-                        <a class="right" onclick="nextSlide(1)">❯</a>  
+                        <a class="right" onclick="nextSlide(1)">❯</a>
+                        <!--page dots-->
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
                     </div>
                 </div>
             </div>
@@ -74,17 +89,31 @@
         <br>
         <div class="bottom-home">
             <div class="home-container">
-                <div class="bottom-products">
-                    <h3>Products</h3>
-                    <a href="Products.html">Products</a>
-                </div>
-                <div class="bottom-gallery">
-                    <h3>Gallery</h3>
-                    <a href="Gallery.html">Gallery</a>
-                </div>
-                <div class="bottom-reserve">
-                    <h3>Reserve</h3>
-                    <a href="Reserve.html">Reserve</a>
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <div class="bottom-products">
+                                <h3>Products</h3>
+                                <a href="Products.html">Products</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="bottom-gallery">
+                                <h3>Gallery</h3>
+                                <a href="Gallery.html">Gallery</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="bottom-reserve">
+                                <h3>Reserve</h3>
+                                <a href="Reserve.html">Reserve</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
