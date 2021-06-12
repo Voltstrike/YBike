@@ -17,12 +17,13 @@ nav{
     width: 100%;
 }
 
-body{
+/* body{
     height: 100%;
-}
+} */
 
 
 .navbar{
+    top: 0;
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
@@ -93,6 +94,7 @@ footer{
     color: white;
     overflow: hidden;
     bottom: 0;
+    position: absolute;
     width: 100%;
 }
 

@@ -2,6 +2,10 @@ body{
    background-color: #F3F4ED; 
 }
 
+.Product-Header{
+    min-height: 100%;
+}
+
 .title{
     text-align: center;
     font-family: sans-serif;
@@ -10,6 +14,7 @@ body{
     position: relative;
     text-align: center;
     color: white;
+    height: 100%;
 }
 .IMGText{
     position: absolute;
