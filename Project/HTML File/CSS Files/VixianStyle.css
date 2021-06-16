@@ -9,6 +9,11 @@
     flex-direction: column;
     justify-content: center;
 }
+
+img{
+    max-width: 100%;
+}
+
 .image img{
     width: 70%;
     height: 200px;
