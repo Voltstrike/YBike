@@ -33,6 +33,7 @@ img{
 .container{
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
 .container img{
@@ -65,4 +66,6 @@ img{
 .Bikes{
     display: flex;
     justify-content: space-evenly;
+    margin-right: auto;
+    margin-left: auto;
 }
