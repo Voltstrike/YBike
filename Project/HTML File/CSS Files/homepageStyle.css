@@ -67,9 +67,9 @@ body{
 
 /* Slider container */
 .slidercontainer{
-    max-width: 250px;
+    max-width: auto;
     position: relative;
-    margin: auto auto auto 5vw;
+    margin: auto;
 }
 
 /* hide images default */
