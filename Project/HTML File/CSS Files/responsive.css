@@ -3,5 +3,14 @@
 }
 
 @media all and (max-width: 670px){
- 
+    .Bikes{
+        flex-direction: column;
+    }
+    .banner .bgimg{
+        height: 50%;
+    }
+    div{
+        font-size: 10vw;
+    }
+   
 }
