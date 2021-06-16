@@ -10,17 +10,24 @@ img{
     text-align: center;
     font-family: sans-serif;
 }
-.bgimg{
+.banner{
     position: relative;
-    text-align: center;
-    color: white;
-    height: 100%;
+    width: 100%;
 }
-.IMGText{
-    position: absolute;
-    left: 226px;
-    top: 149px;
+.banner .bgimg{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.banner .Text{
+    color: #fff;
+    font-size: 30px;
     font-family: sans-serif;
+    line-height: 1.5em;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 10%;
 }
 
 .container{
