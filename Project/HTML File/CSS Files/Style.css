@@ -6,6 +6,7 @@ form, input, div {
   padding: 0;
 }
 
+
 li{
     text-decoration: none;
     list-style: none;
@@ -29,7 +30,7 @@ nav{
     overflow: hidden;
     background-color: #536162;
     font-family: Arial;
-    
+    width: 100%;
 }
 
 .navbar a{
@@ -117,4 +118,11 @@ footer{
 
 .logo img{
     width: 5vw;
+}
+
+body{
+    background-color: #F3F4ED;
+    flex: 1 1 auto;
+    max-width: 100%;
+    position: relative;
 }

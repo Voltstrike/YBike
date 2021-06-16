@@ -14,11 +14,6 @@ main{
     padding: 18px;
 }
 
-
-body{
-    background-color: #F3F4ED;
-}
-
 .column img{
     opacity: 0.8;
     cursor: pointer;
