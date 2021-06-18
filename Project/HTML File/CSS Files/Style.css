@@ -2,16 +2,16 @@ html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p,
 form, input, div {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     border: 0;
 }
 
 
-nav, footer {
+/* nav, footer {
     margin-left: auto !important;
     margin-right: auto !important
-}
+} */
 
 
 
@@ -24,7 +24,6 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    vertical-align: baseline;
     top: 0;
     right: 0;
     left: 0;
@@ -38,7 +37,7 @@ nav{
 
 .navbar{
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     overflow: hidden;
     background-color: #536162;
     font-family: Arial;
@@ -49,15 +48,19 @@ nav{
     float: left;
     font-size: 25px;
     color: white;
-    text-align: center;
+    /* text-align: center; */
     padding: 1vh;
     text-decoration: none;
 }
 
-.dropdown {
+/* .dropdown {
     float: left;
     overflow: hidden;
-}
+} */
+
+/* .dropdown{
+    justify-content: left;
+} */
 
 .dropdown .dropbtn {
     font-size: 30px;
