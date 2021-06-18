@@ -20,46 +20,84 @@ function Validate(){
     var address = document.getElementById("address").value;
     var postCode = document.getElementById("postCode").value;
     var qty = document.getElementById("qty").value;
+    var trueName;
+    var trueAge;
+    var trueAddress;
+    var truePhNum;
+    var trueMotorBrand;
+    var trueqty;
+    var truePosCode;
 
     if(name.length < 5 ){
         alert("Name must be more than 5 characters!");
+        trueName = false
     }else if(AlphaOnlyAlert(name) == false){
         alert("Name must be alphabet only!")
+        trueName = false
     }else if(name.length < 5 && AlphaOnlyAlert(name) == false){
         alert("Name must be more than 5 characters and alphabet only!")
+        trueName = false
+    }else{
+        trueName = true
     }
     
 
     if(age < 18){
         alert("Age must over 18 to purchase a bike!")
+        trueAge = false
+    }else{
+        trueAge = true
     }
 
     if(postCode.length > 5){
         alert("Postal Code must be 5 Character!")
+        truePosCode = false
     }else if(postCode.length < 5){
         alert("Postal Code must be 5 Character!")
+        truePosCode = false
     }else if(NumOnlyAlert(postCode) == false){
         alert("Postal Code must be numeric only!")
+        truePosCode = false
+    }else{
+        truePosCode = true
     }
 
     if (!address.startsWith("Jalan")){
         alert("Address must start with 'Jalan'");
+        trueAddress = false
+    }else{
+        trueAddress = true
     }
 
     if(phNum.length < 11 || phNum.length > 12){
         alert("Phone number must contains 11 characters or 12 characters!")
+        truePhNum = false
     }else if(NumOnlyAlert(phNum) == false){
         alert("Phone number must be numeric only")
+        truePhNum = false
     }else if(!phNum.startsWith("08")){
         alert("Phone number must start with '08'. Ex: 081234567890")
+        truePhNum = false
+    }else{
+        truePhNum = true
     }
 
     if(qty < 1){
         alert("Must buy at least 1 bike!")
+        trueqty = false
+    }else{
+        trueqty = true
     }
 
     if($("#Brand-selection").val() == "Default"){
         alert("Must pick a bike brand!")
+        trueMotorBrand = false
+    }else{
+        trueMotorBrand = true
+    }
+
+    if(trueMotorBrand == true && trueAddress == true && trueAge == true && trueName == true && truePhNum == true && truePosCode == true && trueqty == true){
+        alert("Reserved Has Been Made for " + name)
     }
 
 }
