@@ -6,6 +6,11 @@
     width: 100%;
     align-items: center;
 }
+
+.desc{
+    text-align: center;
+}
+
 .Bikes-text{
     text-align: center;
 }

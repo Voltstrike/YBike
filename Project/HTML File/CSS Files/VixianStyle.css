@@ -8,6 +8,11 @@
 .Bikes-text{
     text-align: center;
 }
+
+.desc{
+    text-align: center;
+}
+
 .back-image img{
     width: 100%;
     height: 40vh;
