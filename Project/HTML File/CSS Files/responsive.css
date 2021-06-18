@@ -18,4 +18,8 @@
    nav{
        font-size: 35vw;
    }
+   .bottom-home{
+       display: flex;
+       flex-direction: column;
+   }
 }
