@@ -5,10 +5,11 @@
     height: auto;
     width: 100%;
 }
-
+.Bikes-text{
+    text-align: center;
+}
 .back-image img{
-    width: 100vw;
-    height: 40vh;
+    width: 100%;
 }
 .Heading{
     text-align: center;
