@@ -27,6 +27,7 @@ function Validate(){
     var trueMotorBrand;
     var trueqty;
     var truePosCode;
+    var trueEmail;
 
     if(name.length < 5 ){
         alert("Name must be more than 5 characters!");
@@ -100,6 +101,14 @@ function Validate(){
         alert("Reserved Has Been Made for " + name)
     }
 
+    if(emailValidation(email) == false){
+        alert("You have entered an invalid email address!")
+        trueEmail = false
+    }else{
+        trueEmail = true
+    }
+
+
 }
 
 
@@ -122,4 +131,12 @@ function NumOnlyAlert(string){
             return false
         }
     }
+}
+
+function emailValidation(string){
+    if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(string))
+  {
+    return (true)
+  }
+    return (false)
 }
