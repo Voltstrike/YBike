@@ -7,7 +7,7 @@
         flex-direction: column;
     }
     .banner .bgimg{
-        height: 60%;
+        width: 60%;
     }
     div{
         font-size: 10vw;
@@ -15,5 +15,7 @@
    .Container{
       flex-direction: column;
    }
-   
+   nav{
+       font-size: 35vw;
+   }
 }

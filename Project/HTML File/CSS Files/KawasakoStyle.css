@@ -4,6 +4,7 @@
     justify-content: center;
     height: auto;
     width: 100%;
+    align-items: center;
 }
 .Bikes-text{
     text-align: center;
@@ -17,4 +18,9 @@
 .Heading h1{
     font-family: sans-serif;
 }
-
+body{
+    background-color: #F3F4ED;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

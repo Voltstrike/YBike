@@ -59,8 +59,7 @@ img{
 }
 .bgimg img{
     width: 100%;
-    height: 20vw;
-    
+    height: 30vh;
 }
 .Bikes{
     display: flex;

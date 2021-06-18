@@ -3,7 +3,9 @@ legend{
     padding-left: 2vw;
     padding-right: 2vw;
     border: none;
+    background-color: #536162;
+    color: #F3F4ED;
 }
 .Order{
-    background-color: blue;
+    background-color:#F3F4ED;
 }
