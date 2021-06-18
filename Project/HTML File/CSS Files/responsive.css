@@ -1,8 +1,8 @@
-@media all and (max-width: 1000px){
+/* @media all and (max-width: 1000px){
     
-}
+} */
 
-@media all and (max-width: 670px){
+@media all and (max-width: 500px){
     .Bikes{
         flex-direction: column;
     }
@@ -18,5 +18,9 @@
    .banner .back-image{
        height: 60%;
    }
+   /* .navbar{
+       display: flex;
+       flex-direction: column;
+   } */
    
 }
