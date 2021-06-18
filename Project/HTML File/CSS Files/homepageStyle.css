@@ -119,9 +119,6 @@ body{
     top: 0;
 }
 
-
-
-
 .fade{
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;

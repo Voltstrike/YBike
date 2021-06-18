@@ -6,18 +6,9 @@
     width: 100%;
 }
 
-
-.image{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.image img{
-    height: 200px;
-}
 .back-image img{
-    width: 100%;
-    height: 350px;
+    width: 100vw;
+    height: 40vh;
 }
 .Heading{
     text-align: center;
