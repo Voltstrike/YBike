@@ -1,3 +1,6 @@
+img{
+    max-width: 100%;
+}
 legend{
     display: block;
     padding-left: 2vw;
@@ -5,6 +8,14 @@ legend{
     border: none;
     background-color: #536162;
     color: #F3F4ED;
+}
+.banner{
+    position: relative;
+    width: 100%;
+}
+.banner .bg{
+    display: block;
+    width: 100%;
 }
 .Order{
     background-color:#F3F4ED;
