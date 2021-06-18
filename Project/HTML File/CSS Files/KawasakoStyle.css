@@ -1,3 +1,10 @@
+.Product-Header{
+    min-height: 100%;
+}
+
+img{
+    max-width: 100%;
+}
 .Container{
     display: flex;
     flex-direction: row;
