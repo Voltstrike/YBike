@@ -46,6 +46,12 @@ function Validate(){
     }else{
         trueAge = true
     }
+    if(emailValidation(email) == false){
+        alert("You have entered an invalid email address!")
+        trueEmail = false
+    }else{
+        trueEmail = true
+    }
     if(postCode.length > 5){
         alert("Postal Code must be 5 Character!")
         truePosCode = false
@@ -91,15 +97,6 @@ function Validate(){
     if(trueMotorBrand == true && trueAddress == true && trueAge == true && trueName == true && truePhNum == true && truePosCode == true && trueqty == true){
         alert("Reserved Has Been Made for " + name)
     }
-
-    if(emailValidation(email) == false){
-        alert("You have entered an invalid email address!")
-        trueEmail = false
-    }else{
-        trueEmail = true
-    }
-
-
 }
 
 
