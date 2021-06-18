@@ -10,8 +10,6 @@ $(document).ready(function () {
         }
     });
 });
-
-
 function Validate(){
     var name = document.getElementById("name").value;
     var age = document.getElementById("age").value;
@@ -42,14 +40,12 @@ function Validate(){
         trueName = true
     }
     
-
     if(age < 18){
         alert("Age must over 18 to purchase a bike!")
         trueAge = false
     }else{
         trueAge = true
     }
-
     if(postCode.length > 5){
         alert("Postal Code must be 5 Character!")
         truePosCode = false
@@ -62,14 +58,12 @@ function Validate(){
     }else{
         truePosCode = true
     }
-
     if (!address.startsWith("Jalan")){
         alert("Address must start with 'Jalan'");
         trueAddress = false
     }else{
         trueAddress = true
     }
-
     if(phNum.length < 11 || phNum.length > 12){
         alert("Phone number must contains 11 characters or 12 characters!")
         truePhNum = false
@@ -82,21 +76,18 @@ function Validate(){
     }else{
         truePhNum = true
     }
-
     if(qty < 1){
         alert("Must buy at least 1 bike!")
         trueqty = false
     }else{
         trueqty = true
     }
-
     if($("#Brand-selection").val() == "Default"){
         alert("Must pick a bike brand!")
         trueMotorBrand = false
     }else{
         trueMotorBrand = true
     }
-
     if(trueMotorBrand == true && trueAddress == true && trueAge == true && trueName == true && truePhNum == true && truePosCode == true && trueqty == true){
         alert("Reserved Has Been Made for " + name)
     }
@@ -139,4 +130,4 @@ function emailValidation(string){
     return (true)
   }
     return (false)
-}
+} 
