@@ -10,6 +10,10 @@ legend{
     background-color:#F3F4ED;
 }
 
+label{
+    padding: 10px 5px;
+}
+
 .input{
     -webkit-appearance: none;
 
@@ -41,3 +45,18 @@ select{
     background: #f9f9f9;
     transition: background 0.25s, border-color 0.25s, color 0.25s;
  }
+ .submit_button {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 10px 16px;
+    margin: 10px 0;
+  
+    color: #ffffff;
+    background: #14b64a;
+    border: 2px solid #0fa942;
+    border-radius: 5px;
+  
+    cursor: pointer;
+    outline: none;
+  }
