@@ -7,10 +7,12 @@
         flex-direction: column;
     }
     .banner .bgimg{
-        height: 50%;
+        height: 60%;
     }
     div{
         font-size: 10vw;
     }
-   
+   .Container{
+      flex-direction: column;
+   }
 }
