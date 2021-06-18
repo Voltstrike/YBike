@@ -14,6 +14,7 @@
     }
     div{
         font-size: 10vw;
+        align-items: center ;
     }
    .banner .back-image{
        height: 60%;
